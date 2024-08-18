@@ -1,0 +1,120 @@
+/* Reset margin và padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.cv-container {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cv-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #e1e1e1;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.profile-info p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #007BFF;
+}
+
+.introduction p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.8;
+}
+
+.skills ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills li {
+    background: #e9ecef;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: background 0.3s;
+}
+
+.skills li:hover {
+    background: #d6d6d6;
+}
+
+.experience-item {
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: background 0.3s, box-shadow 0.3s;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.experience-item:hover {
+    background: #f0f0f0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item .description {
+    display: none;
+    margin-top: 10px;
+}
+
+.education-item {
+    margin-bottom: 15px;
+}
+
+.cv-footer {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #e1e1e1;
+}
+
+.cv-footer p {
+    color: #666;
+}

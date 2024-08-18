@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive CV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cv-container">
+        <!-- Header -->
+        <header class="cv-header">
+            <div class="profile">
+                <img src="https://media.discordapp.net/attachments/1129371346867073146/1274578881164218368/20220930_144242.jpg?ex=66c2c395&is=66c17215&hm=dd1adc8ef4925e9ec1ffe86f418d754346f65c8875ca5132e1bf0ca27c331b03&=&format=webp&width=306&height=662" alt="Profile Picture" class="profile-img">
+                <div class="profile-info">
+                    <h1>Lê Thiên Phúc</h1>
+                    <p>Software Developer</p>
+                    <p>Location: Thành phố Hồ Chí Minh</p>
+                    <p>Email: phucdepzai0168@gmail.com | Phone: 0399884681</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Introduction -->
+        <section class="introduction">
+            <h2>Introduction</h2>
+            <p>
+                Tôi là Lê Thiên Phúc, một lập trình viên nghiệp dư với hơn 2 năm kinh nghiệm trong lĩnh vực phát triển phần mềm và thiết kế web. Tôi đam mê công nghệ và luôn tìm cách tối ưu hóa quy trình làm việc để mang lại kết quả tốt nhất.
+            </p>
+        </section>
+
+        <!-- Skills -->
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><span>HTML, CSS, JavaScript</span></li>
+                <li><span>React, Node.js</span></li>
+                <li><span>Python, Django</span></li>
+                <li><span>Git, Docker</span></li>
+                <li><span>UX/UI Design</span></li>
+            </ul>
+        </section>
+
+        <!-- Experience -->
+        <section class="experience">
+            <h2>Experience</h2>
+            <div class="experience-item" onclick="toggleContent(this)">
+                <h3>Senior Developer - Công ty FPT</h3>
+                <p class="date">2022 - 2023</p>
+                <p class="description">Chịu trách nhiệm phát triển và duy trì ứng dụng web chính của công ty, làm việc trực tiếp với các nhóm khác để cải tiến tính năng và hiệu suất hệ thống.</p>
+            </div>
+            <div class="experience-item" onclick="toggleContent(this)">
+                <h3>Junior Developer - Công ty VNPT</h3>
+                <p class="date">2021 - 2024</p>
+                <p class="description">Tham gia phát triển các ứng dụng web và xử lý các lỗi kỹ thuật. Hỗ trợ thiết kế và triển khai các tính năng mới theo yêu cầu của khách hàng.</p>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Đại học Nguyễn Tất Thành</h3>
+                <p><strong>Chuyên ngành:</strong> Kĩ sư phần mềm</p>
+                <p><strong>Thời gian:</strong> 2022 - 2025</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="cv-footer">
+            <p>© 2024 Lê Thiên Phúc</p>
+        </footer>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
